@@ -1,0 +1,7 @@
+LOAD_ZONE,DATE,export_hydrogen
+inside_lvliang,2025_01,100
+inside_lvliang,2030_01,100
+inside_lvliang,2035_01,100
+outside_lvliang,2025_01,0
+outside_lvliang,2030_01,0
+outside_lvliang,2035_01,0

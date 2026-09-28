@@ -1,0 +1,33 @@
+﻿cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this repository."
+title: "TODO: Paper title for the Lvliang city-level SCEQ planning reproduction code"
+authors:
+  - family-names: "TODO: Family name"
+    given-names: "TODO: Given name"
+    affiliation: "TODO: Institution"
+    orcid: "TODO: ORCID or remove this field"
+  - family-names: "TODO: Add coauthor family name"
+    given-names: "TODO: Add coauthor given name"
+    affiliation: "TODO: Institution"
+version: "TODO: v1.0.0"
+date-released: "TODO: YYYY-MM-DD"
+doi: "TODO: DOI, if available"
+url: "TODO: GitHub repository URL"
+repository-code: "TODO: GitHub repository URL"
+license: "TODO: Choose a license, e.g., MIT, BSD-3-Clause, Apache-2.0, GPL-3.0-or-later, or CC-BY-4.0 for non-code materials"
+abstract: "TODO: Short abstract of the paper/code package."
+keywords:
+  - SCEQ
+  - stochastic planning
+  - Benders decomposition
+  - renewable energy planning
+  - Lvliang
+preferred-citation:
+  type: article
+  title: "TODO: Paper title"
+  authors:
+    - family-names: "TODO: Family name"
+      given-names: "TODO: Given name"
+  journal: "TODO: Journal or preprint server"
+  year: TODO
+  doi: "TODO: Paper DOI, if available"

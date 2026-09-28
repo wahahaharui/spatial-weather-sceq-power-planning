@@ -1,0 +1,17 @@
+load_zone,fuel,period,fuel_cost
+inside_lvliang,Coal,2025,4.57
+outside_lvliang,Coal,2025,45.7
+inside_lvliang,Coal,2030,4.57
+outside_lvliang,Coal,2030,45.7
+inside_lvliang,Coal,2035,4.57
+outside_lvliang,Coal,2035,45.7
+inside_lvliang,Coal,2040,4.57
+outside_lvliang,Coal,2040,45.7
+inside_lvliang,Hydrogen,2025,0
+outside_lvliang,Hydrogen,2025,0
+inside_lvliang,Hydrogen,2030,0
+outside_lvliang,Hydrogen,2030,0
+inside_lvliang,Hydrogen,2035,0
+outside_lvliang,Hydrogen,2035,0
+inside_lvliang,Hydrogen,2040,0
+outside_lvliang,Hydrogen,2040,0

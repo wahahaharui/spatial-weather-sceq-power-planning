@@ -1,0 +1,16 @@
+﻿文件名,用途,是否运行SCEQ必需,是否仅绘图需要,是否建议放GitHub,建议存放位置,当前实际来源路径,备注
+Lvliang_10km_Features_with_Shear.csv,222个10km网格静态特征和风切变系数,是,否,是,data/static/Lvliang_10km_Features_with_Shear.csv,原始研究工作区：项目根目录/Lvliang_10km_Features_with_Shear.csv,已随代码包复制
+Lvliang_Boundary_WGS84.*,吕梁边界矢量文件,否,是,是,data/static/Lvliang_Boundary_WGS84.*,原始研究工作区：项目根目录/Lvliang_Boundary_WGS84.*,已随代码包复制；小型边界文件用于复现地图
+inputs_data_add_storage/*.csv,Switch/Benders静态输入模板,是,否,是,data/inputs_data_add_storage/,原始研究工作区：Switch模型输入模板目录/inputs_data_add_storage,已随代码包复制
+GNN_cGAN_Normal_Outputs_0502/checkpoints/gnn_cgan_normal_epoch_1300.pth,常规天气GNN生成器权重,是,否,否,data/models/GNN_cGAN_Normal_Outputs_0502/checkpoints/gnn_cgan_normal_epoch_1300.pth,原始研究工作区：GNN_cGAN_Normal_Outputs_0502/checkpoints/,大模型文件建议Git LFS/Release/Zenodo
+GNN_cGAN_Extreme_Outputs_0502/checkpoints/gnn_cgan_extreme_latest.pth,极端天气GNN生成器权重,是,否,否,data/models/GNN_cGAN_Extreme_Outputs_0502/checkpoints/gnn_cgan_extreme_latest.pth,原始研究工作区：GNN_cGAN_Extreme_Outputs_0502/checkpoints/,大模型文件建议Git LFS/Release/Zenodo
+MSE_weather_extreme_load_predictor_model.h5,负荷预测LSTM模型,是,否,否,data/models/demand_model/MSE_weather_extreme_load_predictor_model.h5,原始研究工作区：demand_model/MSE_weather_extreme_load_predictor_model.h5,外部模型文件
+MSE_weather_extreme_preprocessor.joblib,负荷预测特征预处理器,是,否,否,data/models/demand_model/MSE_weather_extreme_preprocessor.joblib,原始研究工作区：demand_model/MSE_weather_extreme_preprocessor.joblib,外部模型文件
+MSE_weather_extreme_scaler_y.joblib,负荷预测目标反归一化器,是,否,否,data/models/demand_model/MSE_weather_extreme_scaler_y.joblib,原始研究工作区：demand_model/MSE_weather_extreme_scaler_y.joblib,外部模型文件
+Datasets_calibration_0428/Normal/*.npy,ScenarioGenerator拟合MinMaxScaler和种子天气片段,是,否,否,data/Datasets_calibration_0428/Normal/,原始研究工作区：Datasets_calibration_0428/Normal/,8296个npy文件；建议外部发布
+CLCD_v01_2022_albert.tif,土地利用底图,否,是,否,data/external/CLCD_v01_2022_albert.tif,原始研究工作区或外部地表覆盖数据目录：CLCD_v01_2022_albert.tif,绘图缺失时会跳过底图；建议外部发布
+乡镇数据.shp及配套文件,乡界/行政边界扩展数据,否,是,否,data/external/township_boundary/,原始研究工作区：乡界融合数据目录,体量很大；不建议普通GitHub上传
+output_runs/output*/checkpoint.json,多组1000条稳健性分析输入,否,否,否,output_runs/output*/checkpoint.json,原始研究工作区：多组SCEQ历史输出目录,robustness_sampling_analysis和机制实验需要；应由重复运行产生或作为外部结果数据发布
+output_runs/output*/01_weather_paths,机制实验候选天气路径,否,否,否,output_runs/output*/01_weather_paths,原始研究工作区：多组SCEQ历史输出目录,机制实验需要
+output_runs/output*/04_summary/02_grid_robustness_data.csv,多组稳健性汇总表,否,否,否,output_runs/output*/04_summary/02_grid_robustness_data.csv,原始研究工作区：多组SCEQ历史输出目录,robustness和机制实验需要
+output_runs/output*/05_work_dirs,多组求解工作目录和gen_build/gen_info,否,否,否,output_runs/output*/05_work_dirs,原始研究工作区：多组SCEQ历史输出目录,robustness和机制实验需要；体量大

@@ -1,0 +1,18 @@
+{
+  "experiment_root": "mechanism_experiment",
+  "run_order": ["V1", "V2", "V3", "V4"],
+  "baseline_runs": {
+    "V1": "output",
+    "V2": "output_v2",
+    "V3": "output_v3",
+    "V4": "output_v4"
+  },
+  "periods": [2025, 2030, 2035, 2040],
+  "paths_per_group": 20,
+  "paths_per_stratum": 5,
+  "sceq": {
+    "n_workers": 2,
+    "benders_max_iter": 200,
+    "benders_gap_tol": 0.005
+  }
+}
